@@ -35,14 +35,8 @@ For example ``"//;\n1;2"`` should return 3 where the default delimiter is ``';'`
 The first line is optional. 
 All existing scenarios should still be supported.
 
-### Step 5: negative numbers
-Calling ``add()`` with a negative number will throw an exception ``"negatives not allowed"`` - and the negative that was passed.
 
-For example ``add("1,4,-1")`` should throw an exception with the message ``"negatives not allowed: -1"``.
-
-If there are multiple negatives, show all of them in the exception message.
-
-### Step 6: ignore big numbers
+### Step 5: ignore big numbers
 Numbers bigger than 1000 should be ignored, so adding 2 + 1001  = 2
 
 ## General requirements
